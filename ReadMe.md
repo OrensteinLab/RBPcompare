@@ -1,18 +1,19 @@
-The scripts and functions
+This repo contains all scripts for the "A comparative analysis of RNA-binding proteins binding models learned from RNAcompete, RNA Bind-n-Seq and eCLIP data" paper.
 
+###**Data files:**
 
-Data files:
-eCLIP files:
-	ENCODE_acession for example ENCFF933AGU
-	Positive sequences file -	<ENCODE_acession>.bed.ext.hg19.fa
-	Negative sequences file - 	<ENCODE_acession>.bed.control.ext.hg19.fa
-	Structure files - 			<ENCODE_acession>.bed.ext.hg19.fa.combined_profile.txt.sho.txt
-								Contain 5 rows for each sequence with the probabilities of each nucleotide to be paired/ hairpin- multi- inner- external-loop.
+#eCLIP files:
+	* ENCODE_acession for example ENCFF933AGU
+	* Positive sequences file -	<ENCODE_acession>.bed.ext.hg19.fa
+	* Negative sequences file - 	<ENCODE_acession>.bed.control.ext.hg19.fa
+	* Structure files - 		<ENCODE_acession>.bed.ext.hg19.fa.combined_profile.txt.sho.txt
+					Contain 5 rows for each sequence with the probabilities of each nucleotide to be paired/ hairpin- multi- inner- external-loop.
 	
 RNA BInd-n-Seq files:
-	k-mer scores files -  		tab delimeted files containing a list of k-mers and their scores (as calculated by the authors) named {protein_name}_{score_type}_{k}.tsv (for example TIA1_Z_5.tsv).
-	Structure files -			5 files for each experimet, each contain the probabilities for all nuclotide to be in a specific structure (calculated by RNAplfold)
-	fastq files - 				containing all RNA sequences in the bound pool of the experiment
+	* k-mer scores files -  	tab delimeted files containing a list of k-mers and their scores (as calculated by the authors) named
+					{protein_name}_{score_type}_{k}.tsv (for example TIA1_Z_5.tsv).
+	* Structure files -		5 files for each experimet, each contain the probabilities for all nuclotide to be in a specific structure (calculated by RNAplfold)
+	* fastq files - 		containing all RNA sequences in the bound pool of the experiment
 
 RNAcompete files:
 	7-mer scores files -		Two files, one containing Z scores and the other E scores of all experimetns done by Ray 2013. each experiment is available in 3 columns, set A, set B and set AB.
