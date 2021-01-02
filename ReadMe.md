@@ -44,11 +44,11 @@ there is no need to install the software but the dependencies specified below.
 
 # **Dependencies:**
 * python 3.6 and above
-* numpy
-* pandas
-* pickle
-* sklean
-* scipy
+* numpy 1.17.3
+* pandas 0.25.3
+* pickle 4.0
+* sklean 0.19.2
+* scipy 1.4.1
 
 
 # **Code (python scripts):**
