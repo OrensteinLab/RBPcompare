@@ -90,7 +90,7 @@ inputs:
 	* e-	use enrichment score (i.e ratio score)? 1-yes 0-no
 	* K-	length of k-mer, integer.
 	* m-	mean probabilities over nucleotide.  
-	output: binary file containes the python dictionary of the results
+output: binary file containes the python dictionary of the results
 
 * GiveScores.py- This script will asign a score for each sequence in the input file based on the scores file of the "CreateScoresFiles.py" script.
  Inputs:
@@ -100,5 +100,5 @@ inputs:
 	* e-	use enrichment score (i.e ratio score)? 1-yes 0-no
 	* K-	length of k-mer, integer.
 	* m-	mean probabilities over nucleotide.  
-
-output- binary file that contain the AUC or Pearson correlation achived by the k-mers scores model. the name is ('identifier_e_pup_m.txt')
+output: binary file that contain the AUC or Pearson correlation achived by the k-mers scores model. the name is ('identifier_e_pup_m.txt')
+* utiles.py- Utility functions that are uses throughout the program.
